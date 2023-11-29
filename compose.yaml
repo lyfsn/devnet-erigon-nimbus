@@ -31,11 +31,11 @@ services:
       - ./execution-data:/execution-data
       - ./el-cl-genesis-data:/el-cl-genesis-data
     ports:
-      - "10745:8545" 
-      - "10746:8546" 
-      - "10751:8551" 
-      - "11201:9001" 
-      - "50503:50503"
+      - "11145:8545" 
+      - "11146:8546" 
+      - "11151:8551" 
+      - "12201:9001" 
+      - "51503:50503"
     restart: unless-stopped
 
   beacon:
